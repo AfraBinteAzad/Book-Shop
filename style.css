@@ -103,6 +103,7 @@ html, body {
     width: 240px;
     height: 340px;
     border-radius: 20px;
+    border: 2px solid rgb(59, 57, 57);
 }
 
 .card button{
@@ -118,6 +119,6 @@ html, body {
 
 .card button:hover{
     background-color:#f5dede ;
-    transform: scale(1.05);
+    transform: scale(1.2);
     transition: transform 0.2s ease ;
 }
