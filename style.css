@@ -16,7 +16,7 @@ html, body {
     border-radius: 10px;
     background: linear-gradient(to right, #fdf6e3, #ffe0d1, #ffe4e1, #fff0f5);
     border: 2px solid rgb(59, 57, 57);
-    animation: bgchange 3s infinite ease-in-out;
+    animation: bgchange 10s infinite ease-in-out;
     transition: background 1s ease-in-out;
 }
 
@@ -84,6 +84,9 @@ html, body {
   gap: 25px;
   margin: 50px;
   padding: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .card{
@@ -92,9 +95,7 @@ html, body {
   padding: 30px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 16px;
+  
   margin: 5px;
   border: 2px solid rgb(59, 57, 57);
   animation: bgchange 3s infinite ease-in-out;
@@ -161,4 +162,34 @@ html, body {
     100% {
         background: linear-gradient(to right, #fdf6e3, #ffe0d1);
     }
+}
+
+
+.contact-form {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-form label{
+    text-align: left;
+    margin: 15px;
+}
+
+.contact-form input,textarea{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(59, 57, 57);
+    margin-bottom: 10px;
+}
+
+
+.form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
 }
